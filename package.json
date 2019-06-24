@@ -1,0 +1,57 @@
+{
+  "name": "nest-gitlab",
+  "version": "1.0.0-rc.1",
+  "description": "A node-gitlab wrapper for NestJS framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "lint:fix": "tslint --fix --project tsconfig.json",
+    "clean": "rimraf dist",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexenq/nest-gitlab.git"
+  },
+  "keywords": [
+    "nestjs",
+    "gitlab",
+    "api"
+  ],
+  "author": "Hexen Qi <hexenq@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/hexenq/nest-gitlab#readme",
+  "bugs": {
+    "url": "https://github.com/hexenq/nest-gitlab/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@nestjs/common": "^6.3.1",
+    "@nestjs/core": "^6.3.1",
+    "@nestjs/platform-express": "^6.3.1",
+    "gitlab": "^6.3.7",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^2.6.3",
+    "rxjs": "^6.5.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^5.0.0 || ^6.0.0",
+    "gitlab": "^6.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": "tslint --project tsconfig.json"
+  }
+}
