@@ -8,7 +8,7 @@ export enum BundleType {
   Projects = 'ProjectsBundle',
 }
 
-const option = {host: 'http://example.com', token: '123456'};
+const option = { host: 'http://example.com', token: '123456' };
 
 const groupsBundle = new GroupsBundle(option);
 export type GroupsBundleRef = typeof groupsBundle;
