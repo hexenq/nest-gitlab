@@ -8,16 +8,18 @@ export enum BundleType {
   Projects = 'ProjectsBundle',
 }
 
-const groupsBundle = new GroupsBundle();
+const option = {host: 'http://example.com', token: '123456'};
+
+const groupsBundle = new GroupsBundle(option);
 export type GroupsBundleRef = typeof groupsBundle;
 
-const usersBundle = new UsersBundle();
+const usersBundle = new UsersBundle(option);
 export type UsersBundleRef = typeof usersBundle;
 
-const projectsBundle = new ProjectsBundle();
+const projectsBundle = new ProjectsBundle(option);
 export type ProjectsBundleRef = typeof projectsBundle;
 
-const gitlab = new Gitlab();
+const gitlab = new Gitlab(option);
 export type GitlabInstance = typeof gitlab;
 
 export type GitlabModuleOptions = {
