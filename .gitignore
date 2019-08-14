@@ -1,2 +1,25 @@
+# dependencies
+/node_modules
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+
+# misc
+npm-debug.log
+/logs/*.log
+/logs/*.json
+
+# example
+/quick-start
+
+# tests
+/coverage
+/.nyc_output
+
+# dist
 /dist
-node_modules
+
+# others
+**/.DS_Store
