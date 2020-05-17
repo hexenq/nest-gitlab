@@ -1,5 +1,5 @@
 import { DynamicModule, Global, Module, Provider } from '@nestjs/common';
-import { Gitlab, GroupsBundle, ProjectsBundle, UsersBundle } from 'gitlab';
+import { Gitlab, GroupsBundle, ProjectsBundle, UsersBundle } from '@gitbeaker/node';
 import { DEFAULT_INSTANCE_NAME } from './gitlab.constants';
 import { BundleType, GitlabInstance, GitlabModuleAsyncOptions, GitlabModuleOptions } from './gitlab.interfaces';
 import { getBundleToken, getInstanceOptionsToken, getInstanceToken } from './gitlab.utils';

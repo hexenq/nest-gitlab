@@ -29,10 +29,10 @@
     "dist"
   ],
   "devDependencies": {
+    "@gitbeaker/node": "19.6.0",
     "@nestjs/common": "^7.0.13",
     "@nestjs/core": "^7.0.13",
     "@nestjs/platform-express": "^7.0.13",
-    "gitlab": "^10.0.0",
     "husky": "^3.0.1",
     "lint-staged": "^9.2.0",
     "reflect-metadata": "^0.1.13",
@@ -43,8 +43,8 @@
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "@nestjs/common": "^5.0.0 || ^6.0.0 || ^7.0.0",
-    "gitlab": ">6.0.0"
+    "@gitbeaker/node": ">19.0.0",
+    "@nestjs/common": "^5.0.0 || ^6.0.0 || ^7.0.0"
   },
   "husky": {
     "hooks": {
