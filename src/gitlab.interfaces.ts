@@ -1,6 +1,6 @@
 import { ModuleMetadata } from '@nestjs/common/interfaces';
-import { Gitlab, GroupsBundle, ProjectsBundle, UsersBundle } from 'gitlab';
-import { BaseServiceOptions } from 'gitlab/dist/infrastructure';
+import { Gitlab, GroupsBundle, ProjectsBundle, UsersBundle } from '@gitbeaker/node';
+import { BaseServiceOptions } from '@gitbeaker/core/dist/types/infrastructure';
 
 export enum BundleType {
   Groups = 'GroupsBundle',

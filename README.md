@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  A <a href="https://github.com/jdalrymple/node-gitlab">node-gitlab</a> wrapper for <a href="https://github.com/nestjs/nest">NestJS</a> framework.
+  A <a href="https://github.com/jdalrymple/gitbeaker">gitbeaker</a> wrapper for <a href="https://github.com/nestjs/nest">NestJS</a> framework.
 </p>
 
 <p align="center">
@@ -18,12 +18,12 @@ Gitlab API library module for <a href="https://github.com/nestjs/nest">Nest</a>.
 ## Installation
 
 ```bash
-npm install --save nest-gitlab gitlab
+npm install --save nest-gitlab @gitbeaker/node
 ```
 
 ## Quick Start
 
-Import `GitlabModule` and configure it with the same initiating options as the node-gitlab package.
+Import `GitlabModule` and configure it with the same initiating options as the gitbeaker package.
 
 ```ts
 import { GitlabModule } from 'nest-gitlab';
@@ -90,7 +90,7 @@ export class AppModule {}
 ```
 
 ## Bundle Support
-node-gitlab provides [bundle](https://github.com/jdalrymple/node-gitlab#bundle-imports) feature which is a export for importing and instantiating all related API's of a specific resource at once. In order to use this feature, you could use the `InjectBundleRef` decorator combined with `forFeature` method:
+gitbeaker provides [bundle](https://github.com/jdalrymple/gitbeaker#bundle-imports) feature which is a export for importing and instantiating all related API's of a specific resource at once. In order to use this feature, you could use the `InjectBundleRef` decorator combined with `forFeature` method:
 
 ```ts
 import { GitlabModule } from 'nest-gitlab';
