@@ -1,7 +1,7 @@
 {
   "name": "nest-gitlab",
-  "version": "1.0.2",
-  "description": "A node-gitlab wrapper for NestJS framework",
+  "version": "2.0.0",
+  "description": "A gitbeaker wrapper for NestJS framework",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,9 +15,11 @@
     "url": "https://github.com/hexenq/nest-gitlab.git"
   },
   "keywords": [
+    "nest",
     "nestjs",
     "gitlab",
-    "api"
+    "api",
+    "gitbeaker"
   ],
   "author": "Hexen Qi <hexenq@gmail.com>",
   "license": "MIT",
