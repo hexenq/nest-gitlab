@@ -21,6 +21,13 @@ Gitlab API library module for <a href="https://github.com/nestjs/nest">Nest</a>.
 npm install --save nest-gitlab @gitbeaker/node
 ```
 
+## Compatibility
+|           gitbeaker            | nest-gitlab |
+| :----------------------------: | :---------: |
+| node-gitlab (former gitbeaker) |     1.x     |
+|        19.0.0 ~ 23.5.0         |     2.x     |
+|            23.6.0 ~            |     3.x     |
+
 ## Quick Start
 
 Import `GitlabModule` and configure it with the same initiating options as the gitbeaker package.
