@@ -34,7 +34,7 @@
     "@gitbeaker/node": "^28.0.4",
     "@nestjs/common": "^7.6.7",
     "@nestjs/core": "^7.6.7",
-    "@nestjs/platform-express": "^7.6.7",
+    "@nestjs/platform-express": "^9.2.1",
     "husky": "^3.0.1",
     "lint-staged": "^9.2.0",
     "reflect-metadata": "^0.1.13",
